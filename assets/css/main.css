@@ -82,24 +82,24 @@ body {
 
 #ambassadors h3{
     font-weight: 600;
-    color: var(--blue-wtm);
+    color: var(--blue-gdg);
     text-align: center;
 }
 
 #card {
-    float: left;
-    width: 40.00%;
+    display: inline-block;
+    margin-left: 2%;
 }
 
 #card a{
     color:var(--text);
-    font-weight: 400;
+    font-weight: 450;
     text-decoration: none;
 }
 
 #card a:hover{
     color:var(--blue-wtm);
-    font-weight: 400;
+    font-weight: 450;
     text-decoration: none;
 }
 
@@ -111,7 +111,6 @@ body {
 }
 
 footer {
-    float: left;
     text-align: center;
     color:var(--text);
     font-size: 0.75rem;
